@@ -1,0 +1,110 @@
+/* Reset some basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; /* Soft background color */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container styling */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* File selector styling */
+#fileForm label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#fileInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+#fileInput:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Message box styling */
+.message-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.message-box {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  resize: vertical;
+}
+
+.message-box:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Submit button styling */
+#submit {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #0056b3;
+}
+
+#submit:focus {
+  outline: none;
+  background-color: #0056b3;
+}

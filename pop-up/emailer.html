@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="emailer-style.css" />
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>emailer</title>
+  <link rel="stylesheet" href="emailer-style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- File Selector -->
+    <form id="fileForm">
+      <label for="fileInput">Select File:</label>
+      <input type="file" id="fileInput" accept=".xls,application/vnd.ms-excel">
+    </form>
 
+    <!-- Message Box -->
+    <div class="message-area">
+      <label class="message-label" for="messageBox">Message:</label>
+      <textarea class="message-box" id="messageBox" placeholder="Write your message here..."></textarea>
+    </div>
 
-    <body>
-        <div id="test">
-            <button>click me ! </button>
-        </div>
-    </body>
+    <!-- Actions -->
+    <button id="submit">Submit</button>
+  </div>
 
-
-
-
+  <script src="emailer-script.js" defer></script>
+</body>
 </html>
