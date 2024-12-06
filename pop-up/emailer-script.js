@@ -1,5 +1,4 @@
 
-
 const regex = "/rows\[(\w+)\]/g";
 const matches = [];
 
